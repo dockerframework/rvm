@@ -21,4 +21,4 @@ ln -sf $RVM_ROOT/bin/rvm /usr/local/bin/rvm
 ln -sf $RUBY_PATH/bin/ruby /usr/local/bin/ruby
 ln -sf $RUBY_PATH/bin/gem /usr/local/bin/gem
 
-gem install bundler
+#gem install bundler
