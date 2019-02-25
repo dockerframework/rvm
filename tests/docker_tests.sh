@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DOCKER_IMAGE="dockerframework/rvm"
-DOCKER_TAG="18.04-2.6.1"
+DOCKER_TAG="18.04-latest"
 
 #### Halt script on error
 set -e
