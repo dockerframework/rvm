@@ -7,11 +7,11 @@ services:
 #================================================================================================
   rvm:
     restart: unless-stopped
-    container_name: rvm_${UBUNTU_VERSION:-16.04}_${RUBY_VERSION:-2.4.5}
+    container_name: rvm_${UBUNTU_VERSION:-18.04}_${RUBY_VERSION:-2.4.5}
     build:
       context: .
       args:
-        - UBUNTU_VERSION=${UBUNTU_VERSION:-16.04}
+        - UBUNTU_VERSION=${UBUNTU_VERSION:-18.04}
         - RUBY_VERSION=${RUBY_VERSION:-2.4.5}
     ports:
       - "${RVM_PORT:-326}:22"
