@@ -2,7 +2,7 @@
 
 ### Path RVM ###
 export RVM_ROOT="/usr/local/rvm"
-export INSTALL_VERSION=${RUBY_VERSION:-2.6.6}
+export INSTALL_VERSION=${RUBY_VERSION:-2.7.1}
 export RUBY_PATH=$RVM_ROOT/rubies/ruby-$INSTALL_VERSION
 
 curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
